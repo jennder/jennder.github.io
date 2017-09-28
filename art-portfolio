@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<title>art! design! installation!</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	 <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+
+<body>
+	<div class="photo">
+		<img src="jennder.github.io/master/installation.jpg">
+	</div>
+</body>
+</html>
