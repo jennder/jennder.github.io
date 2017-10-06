@@ -19,6 +19,11 @@ ul {
 
 }
 
+.photo {
+	width: 70%;
+	padding 20px;
+	align-content: center;
+
 li a {
 	display: block;
 }
