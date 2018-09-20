@@ -1,14 +1,25 @@
 body {
-	background-color: rgb(244, 206, 255);
+	
 }
 
+.placeImage {
+	z-index: -1;
+}
 .container {
 	width: 100%;
 	border: 3px black;
 	padding: 10px;
 	margin: auto;
 	align-content: center;
+	background-color: rgb(199, 73, 121);
+	z-index: 1;
 
+}
+
+.placeText {
+	position: absolute;
+	top: 30%;
+	right: 10%;
 }
 
 ul {
@@ -31,17 +42,20 @@ li a {
 }
 
 li a:hover {
+	padding: 10px;
 	background-color: rgb(223, 153, 207);
 }
 
 h1 {
 	text-align: center;
 	font-family: "Arial";
-	font-size: 20px;
+	font-size: 100px;
+	color: rgb(251, 238, 255);
 }
 
 h2 {
 	text-align: center;
 	font-family: "Arial";
-	font-size: 14px;
+	font-size: 20px;
+	color: azure;
 }

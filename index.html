@@ -1,32 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="stylesheet" type="text/css" href="/index.css">
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css">
+		<link rel="stylesheet" type="text/css" href="index.css" />
 <head>
 	<title>this is jenn</title>
 	<meta charset="utf-8">
 
+
 </head>
 
 <body>
+		<nav class="w3-bar w3-pale-red">
+				<a href="/" class="w3-button w3-bar-item w3-hover-pink">home</a>
+				<a href="/about-me" class="w3-button w3-bar-item w3-hover-pink">about me</a>
+				<a href="/jennifer der september 18.pdf" class="w3-button w3-bar-item w3-hover-pink">resume</a>
+				<a href="https://drive.google.com/drive/folders/0B82vlLCPF2-_OXdLaDdFTWxBZzA?usp=sharing" class="w3-button w3-bar-item w3-hover-pink">portfolio</a>
+				<a href="https://github.com/jennder/code" class="w3-button w3-bar-item w3-hover-pink">cs projects</a>
+			  </nav>
+
+
+			  
+			
 		<div class="container">
-			<center><img src="https://course.ccs.neu.edu/cs2500/der_jennifer.png" width=20% alt="me"></center>
-		<h1>Jennifer Der</h1>
+				<div class="placeImage">
+						<img src="eat.jpg" width="100%">
+					</div>
+		<div class ="placeText">
+		<h1><i>JENN DER</i></h1>
 		<h2>candidate for bachelor of science<br>
-		in computer science and digital art<br>
+		in computer science and media art<br>
 		@ northeastern university<br>
 		<p>
+			</h2></div></div>
+				
+			<script>
+			var currSlide = 0;
+			carousel();
+
+			function carousel() {
+    		var i;
+    		var mySlides = document.getElementsByClassName("mySlides");
+    		for (i = 0; i < x.length; i++) {
+      			mySlides[i].style.display = "none"; 
+    		}
+    		currSlide++;
+    		if (currSlide > mySlides.length) {currSlide = 1} 
+    			mySlides[currSlide-1].style.display = "block"; 
+    			setTimeout(carousel, 5000);
+			}
+			</script>	
 		
 
 		
-			<li><a href="/">home</a></li>
-			<li><a href="/about-me">about me</a></li>
-			<li><a href="/jennifer der september 18.pdf">resume</a></li>			
-			<li><a href="https://drive.google.com/drive/folders/0B82vlLCPF2-_OXdLaDdFTWxBZzA?usp=sharing">portfolio</a></li>
-			<li><a href="https://github.com/jennder/code">cs projects</a></li>
+
 		
 				
-</h2></div>
+
 		
 
 	</div>
