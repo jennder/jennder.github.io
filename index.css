@@ -98,3 +98,22 @@ h2left {
 .header {
 	padding-bottom: 10px;
 }
+
+h3 {
+	text-align: left;
+	font-family: "Arial";
+	font-size: 1rem;
+	color: #000;
+}
+
+.aboutcontainer {
+	top: 10%;
+	position: absolute;
+	align-content: center;
+	width: 50%;
+	border: 3px black;
+	background-color: rgb(248, 248, 248);
+	z-index: 1;
+	position: relative;
+
+}
