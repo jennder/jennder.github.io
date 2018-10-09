@@ -30,7 +30,12 @@ body {
 	left: 20%;
 	width: 60%;
 	position: absolute;
-	z-index: 1;
+}
+
+.placeTextCenter {
+	top:10%;
+	width: 50%;
+	position: relative;
 }
 
 .placeTextLeftBG {
