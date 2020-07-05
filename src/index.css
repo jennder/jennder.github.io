@@ -1,13 +1,20 @@
 @import './styles/Main.css';
 
 :root {
-  --coral: #d1734d; 
+  --coral: #d4420b; 
   --bg-pink: #fff2ed;
+  --navy: rgb(2, 78, 114);
+  --highlight-coral: #F5A38F;
 }
 
 @font-face {
   font-family: Houston;
   src: url('styles/fonts/Houston-Serif.otf');
+}
+
+@font-face {
+  font-family: Tenor;
+  src: url('styles/fonts/TenorSans-Regular.ttf');
 }
 
 body {

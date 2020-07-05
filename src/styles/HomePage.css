@@ -1,11 +1,26 @@
 .name {
     font-family: Houston;
-    color: #d1734d;
+    color: var(--coral);
     text-align: center;
     font-size: 24px;
 }
 
+.intro {
+    font-family: Tenor;
+    color:var(--coral);
+    text-align: left;
+    font-size: 42px;
+    padding-top: 50%;
+}
 .page {
     padding: 100px;
     background-color: var(--bg-pink);
+}
+
+.verticle-line {
+    border-left: 6px solid var(--navy);
+    height: 500px;
+    margin-left: -3px;
+    position: relative;
+
 }
