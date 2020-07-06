@@ -9,7 +9,7 @@ import Contact from './pages/Contact';
 
 const App = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Navigation />
       <Switch>
         <Route exact path="/" component={HomePage} />
