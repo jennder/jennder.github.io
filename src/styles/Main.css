@@ -1,13 +1,8 @@
-.navtitle {
+.nav-title {
     font-family: Houston;
     color: var(--coral);
     text-align: center;
     font-size: 24px;
-}
-
-.nav-link {
-    font-family: Houston;
-    color: var(--coral) !important;
 }
 
 .underline {

@@ -6,7 +6,7 @@ class Navigation extends React.Component {
     render() {
         return (
             <Navbar>
-                <Navbar.Brand href="/"><span className="navtitle">Jenn Der</span></Navbar.Brand>
+                <Navbar.Brand href="/"><span className="nav-title">Jenn Der</span></Navbar.Brand>
                 <Nav className="ml-auto">
                     <Nav.Item>
                         <Nav.Link href="/about"> about </Nav.Link>

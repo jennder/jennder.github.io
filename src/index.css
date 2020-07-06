@@ -31,3 +31,17 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.inline-link:link, .inline-link:visited {
+  color: var(--coral) !important;
+  text-decoration: underline dotted;
+}
+
+.inline-link:hover {
+  text-decoration: underline dotted !important;
+  color: var(--highlight-coral) !important;
+}
+
+tr {
+  height: 200px;
+}
