@@ -1,5 +1,5 @@
 import React from 'react';
-import { Col, Container, Row, Table } from 'react-bootstrap';
+import { Col, Container, Row } from 'react-bootstrap';
 import Experience from '../components/Experience'
 import ProjectTable from '../components/ProjectTable'
 import '../styles/HomePage.css'
@@ -42,10 +42,7 @@ class HomePage extends React.Component {
                         <ProjectTable />
                     </Col>
                 </Row>
-
             </Container>
-
-
         )
     }
 }

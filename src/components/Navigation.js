@@ -17,7 +17,6 @@ class Navigation extends React.Component {
                     <Nav.Item>
                         <Nav.Link href="/contact">contact</Nav.Link>
                     </Nav.Item>
-
                 </Nav>
             </Navbar>
         );
