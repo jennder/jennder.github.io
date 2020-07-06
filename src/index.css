@@ -41,7 +41,3 @@ code {
   text-decoration: underline dotted !important;
   color: var(--highlight-coral) !important;
 }
-
-tr {
-  height: 200px;
-}

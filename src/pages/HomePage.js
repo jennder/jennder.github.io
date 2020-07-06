@@ -1,5 +1,6 @@
 import React from 'react';
 import { Col, Container, Row, Table } from 'react-bootstrap';
+import Experience from '../components/Experience'
 import '../styles/HomePage.css'
 
 class HomePage extends React.Component {
@@ -12,13 +13,27 @@ class HomePage extends React.Component {
                         <i> previously</i>, i have worked as a <span className="underline">developer</span> in san francisco, california and the greater boston area.
                     </Col>
                 </Row>
+                <Row className="section-title">
+                    <Col>
+                    </Col>
+                </Row>
                 <Row>
                     <Col />
                     <Col className="verticle-line" />
                 </Row>
                 <Row className="section-title">
                     <Col>
-                        past work
+                        work experience
+                    </Col>
+                </Row>
+                <Experience></Experience>
+                <Row>
+                    <Col />
+                    <Col className="verticle-line" />
+                </Row>
+                <Row className="section-title">
+                    <Col>
+                        past projects
                     </Col>
                 </Row>
                 <Row>
@@ -85,6 +100,7 @@ class HomePage extends React.Component {
                         </Table>
                     </Col>
                 </Row>
+                
 
             </Container>
 
