@@ -66,12 +66,8 @@
     font-style: italic;
 }
 
-.job {
-    padding-bottom: 100px;
-}
-
-.no-job {
-    margin-top: -100px;
+.job-positions-container {
+    padding: 20px 0 100px;
 }
 
 .project {

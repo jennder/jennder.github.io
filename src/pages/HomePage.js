@@ -1,7 +1,6 @@
 import React from 'react';
-import { Col, Container, Row, Button } from 'react-bootstrap';
+import { Col, Container, Row } from 'react-bootstrap';
 import { AiOutlineMail } from 'react-icons/ai';
-import { RiPencilLine } from "react-icons/ri";
 
 import Experience from '../components/Experience';
 import ProjectTable from '../components/ProjectTable';
