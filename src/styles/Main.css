@@ -8,3 +8,7 @@
 .underline {
     text-decoration: underline dotted var(--highlight-coral);
 }
+
+.center {
+    text-align: center;
+}
