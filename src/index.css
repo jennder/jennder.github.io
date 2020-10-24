@@ -41,3 +41,7 @@ code {
   text-decoration: underline dotted !important;
   color: var(--highlight-coral) !important;
 }
+
+.nav-spacer {
+  padding: 0 12px;
+}

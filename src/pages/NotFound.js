@@ -8,7 +8,6 @@ class NotFound extends React.Component{
             <Container className="page" fluid>
                 <Row className="intro">
                     <Col className="center">
-                        🙈<br />
                         uh oh! there's nothing here
                         <p><Link className="inline-link" to="/">return to home</Link>  →</p>
                     </Col>
